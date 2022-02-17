@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+
+nav:nth-child(1){
+    background-color: white;
+    border-bottom: rgba(223, 216, 216, 0.4) solid 0.5px;
+    box-shadow: 0px 1px 0.5px #e0dada;
+    position: relative;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.logo {
+    width: 100px;
+    height: 45px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 2px;
+    position: relative;
+    left: 300px;
+}
+
+.logo img {
+    width: 85%;
+    height: 80%;
+}
+
+.searchBar {
+    position: relative;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    bottom: 10px;
+}
+
+.searchIcon {
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    left: 46px;
+    top: 7px;
+}
+
+.search {
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    width: 155px;
+    border:rgba(223, 216, 216, 0.4) solid 1px;
+    box-shadow: 0.4px 0.4px 1px  #e0dada;
+    height: 20px;
+    font-size: 11px;
+    color: rgb(80, 69, 69);
+    padding: 1px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.icons {
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    right: 300px;
+    top: 5px;
+}
+
+.icons i {
+    position: relative;
+    display: inline-block;
+    color: rgb(83, 79, 79);
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+
+.icons img {
+    position: relative;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 3px;
+
+}
+
+.wrapper {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 28%;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.info {
+    position: absolute;
+    right: 90px;
+    width: 50%;
+    display: inline-block;
+    top: 30px;
+    justify-content: space-between;
+    color: #1D1D1D;
+}
+
+.info h1 {
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.buttons {
+    position: relative;
+    display: inline-block;
+    right:0px;
+    width: 180px;
+    height: 30px;
+    margin-left: 1px;
+}
+
+#follow {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    left: 5px;
+    /*margin-left: 15px;*/
+    top: 12px;
+    background-color: #348FE5;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#more {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 2px;
+    background-color: #348FE5;
+    border: none;
+    right: 75px;
+    top: 12px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#more i {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.buttons a i {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    height: 10px;
+    color:rgb(80, 69, 69);
+}
+
+.data {
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-top: 19px;
+}
+
+ul {
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li span {
+    font-size: 14px;
+}
+
+.data p, .data a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.data a {
+    text-decoration: none;
+}
+
+hr {
+    color: rgba(223, 216, 216, 0.4);
+}
+
+.secondNav {
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+.secondNav ul {
+    position: absolute;
+    left: 40%;
+    top: 15px;
+    margin-bottom: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #A5A5A5;
+    margin-right: 25px;
+}
+
+ul a i {
+    margin-right: 6px;
+}
+
+ul a:focus {
+    color: #302c2c;
+}
+
+.gallery {
+    margin-top: 10px;
+    margin-left: 4px;
+    justify-content: space-between;
+}
+
+.gallery img {
+    display: inline-block;
+    width: 239.3px;
+    height: 250px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
